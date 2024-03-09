@@ -1,0 +1,49 @@
+.introduction-section {
+  background: linear-gradient(135deg, #444749, #080608); /* Gradient from blue to purple */
+  padding: 50px 0;
+  text-align: center;
+  color: #fff; /* White text color to contrast with the gradient background */
+  position: sticky;
+  top : 9.90vh; 
+  z-index: -9;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.name strong{
+  color  : yellowgreen; 
+}
+
+.intro-paragraph {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.work-details {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+@media (max-width : 900px) {
+  .introduction-section {
+    background: linear-gradient(135deg, #444749, #080608); /* Gradient from blue to purple */
+    padding: 50px 30px;
+    text-align: center;
+    color: #fff; /* White text color to contrast with the gradient background */
+    position: sticky;
+    top : 6.90vh; 
+    z-index: -9;
+  }
+  
+}

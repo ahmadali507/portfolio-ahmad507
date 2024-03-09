@@ -1,0 +1,113 @@
+.section-p1{
+    width : 100%; 
+    height : 110vh; 
+    background: linear-gradient(135deg, #6e777e, #000000);
+    color : white;  
+    outline: none !important;
+
+    /* now defing the display type. */
+}
+#skills h3{
+    text-align: center;
+    padding-top : 40px; 
+    color : grey;
+}
+.section{
+    display : flex; 
+    justify-content: center;
+    align-items: center;
+    width : 80%; 
+    padding-top: 50px; 
+    margin : auto; 
+
+}
+
+.myimg img{
+    width : 80%;
+    background: linear-gradient(135deg, #98a5af, #1b0f1b);
+
+}
+
+.skills-details{
+    width : 40%;
+    height : 62vh;  
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+}
+
+.skill {
+    display:flex ;
+    align-items: center;
+    height: 40px;
+    margin: 5px 0;
+    padding: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    position: relative;
+    background-color: #a866667d;
+    overflow: hidden;
+}
+
+.skill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right : 0;
+    height: 100%;
+    background-color: #262d35;
+    transition: all 0.3s ease-in-out;
+}
+
+.skill-1::before {
+    width: 5%; /* Highlighted percentage for HTML/CSS */
+}
+
+.skill-2::before {
+    width: 20%; /* Highlighted percentage for JAVA */
+}
+
+.skill-3::before {
+    width: 10%; /* Highlighted percentage for C/C++ */
+}
+
+.skill-4::before {
+    width: 10%; /* Highlighted percentage for JAVASCRIPT */
+}
+
+.skill-5::before {
+    width: 15%; /* Highlighted percentage for REACT.JS */
+}
+
+
+@media (max-width : 900px) {
+
+    .section{
+    display : flex; 
+    flex-direction: column !important;
+    align-content: center;
+    
+}
+
+.section-p1 h3:first-child{
+    padding : 20px; 
+    text-align: center !important;
+}
+.myimg img{
+    width : 90%;
+    background: linear-gradient(135deg, #98a5af, #1b0f1b);
+    position: relative;
+    right : -10px; 
+    
+}
+.section-p1{
+    height : 180%; 
+}
+.skills-details{
+    width : 80%;
+    height : 62vh;  
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+}
+}

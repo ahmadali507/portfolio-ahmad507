@@ -1,0 +1,48 @@
+.menu-bar {
+  position: fixed;
+  top: 9vh;
+  right: 0;
+  z-index: 11000;
+  height: 100vh;
+  width: 20vw;
+  background: linear-gradient(
+    135deg,
+    #2e0505,
+    #9c546b
+  ); /* Gradient from dark red to pink */
+  color: #fff; /* Change as per your design */
+  transition: all 1s ease-in-out;
+}
+
+.menu-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-options li {
+  padding: 20px;
+  border-bottom: 2px solid #555; /* Change as per your design */
+}
+
+.menu-options li:last-child {
+  border-bottom: none;
+}
+
+.menu-options li a {
+  text-decoration: none;
+  color: #fff; /* Change as per your design */
+}
+
+.menu-options li a:hover {
+  color: #ff8c00; /* Change as per your design */
+}
+@media (max-width: 900px) {
+  .menu-bar {
+    width: 40vw;
+    height: 100vh;
+    position: fixed;
+    top: 7vh;
+    right: 0;
+  }
+}

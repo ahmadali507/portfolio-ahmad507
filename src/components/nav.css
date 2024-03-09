@@ -1,0 +1,51 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333; /* Change as per your design */
+    width: 100vw;
+    z-index: 1000; /* Adjust if necessary to ensure the navbar appears above other elements */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width : 100vw; 
+  }
+  
+  .navbar-logo {
+    color: #fff; /* Change as per your design */
+    margin: 0;
+    font-size: 24px; /* Adjust as needed */
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width : 80%; 
+  }
+  
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-item a {
+    color: #fff; /* Change as per your design */
+    text-decoration: none;
+    font-size: 18px; /* Adjust as needed */
+  }
+  
+  /* Optional: Add hover effects or additional styling as desired */
+  .navbar-item a:hover {
+    color: #ff8c00; /* Change as per your design */
+  }
+ 
+  
+ 
+  

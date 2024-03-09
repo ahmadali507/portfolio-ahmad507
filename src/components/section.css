@@ -1,0 +1,87 @@
+#grow {
+    background: linear-gradient(135deg, #444749, #080608); /* Gradient from blue to purple */
+    text-align: center;
+    color: #fff; 
+    height: 120vh; 
+    padding-top: 40px; 
+    position: sticky; /* Make the section sticky */
+    top: 9.90vh; /* Offset by the height of the navbar */
+    z-index: 111;
+    
+}
+
+.base{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    width :80vw; 
+    height : 39vh;
+    justify-self: center; 
+    margin : 6px auto;
+    gap : 40px;  
+    margin : 2px auto; 
+    justify-items: center; /* Center items horizontally */
+    align-items: center;
+    
+    
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 90%;
+    background: linear-gradient(135deg, #195e5ed3, #0c0b0c); /* Gradient from blue to purple */
+    height : 40vh;  
+    cursor : pointer; 
+}
+.box h4{
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 29px; ;
+
+}
+.box p{
+    font-size: 19px; 
+    text-align: center;
+    padding : 0 10px; 
+}
+.box ul{
+    list-style: none;
+    text-align: center;
+    text-shadow: 10px 10px 10px #2e5370;
+    
+}
+.motto{
+    font-size: 14px;
+    color : #878;
+    padding-bottom: 30px;
+}
+.box{
+  transition : all 0.4s ease-in-out; 
+  border-radius: 20px;
+}
+.box:hover{
+  box-shadow: 20px 60px 100px rgb(52, 55, 58);
+  background: linear-gradient(135deg, #14273a, #461d46);
+  color :rgb(168, 135, 135);
+}
+@media (max-width : 900px) {
+    .base{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr); 
+        width :80vw; 
+        height : 39vh;
+        justify-self: center; 
+        margin : 6px auto;
+         
+        margin : 2px auto; 
+        justify-items: center; /* Center items horizontally */
+        align-items: center;   
+    }
+    #grow{
+        height : 210vh;
+    }
+}

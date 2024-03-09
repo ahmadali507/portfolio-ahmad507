@@ -1,0 +1,33 @@
+body{
+    overflow-x: hidden;
+}
+footer{
+    background: linear-gradient(135deg, #001d30, #080608); /* Gradient from blue to purple */
+    color : white; 
+
+    padding-top : 30px; 
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width : 80%; 
+    margin : 10px auto; 
+    height : 50vh; 
+}
+
+.footer-legal {
+
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center; 
+    align-items: center;
+}
+.links h4{
+    cursor : pointer; 
+}
