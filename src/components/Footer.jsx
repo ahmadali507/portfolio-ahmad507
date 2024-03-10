@@ -13,7 +13,7 @@ function Footer() {
     const instaRef = useRef(null); 
     const facebookRef = useRef(null); 
     const googleRef = useRef(null); 
-    
+                                                                                                                                                                
     const handleclick= () =>{
         window.location.href = "https://www.instagram.com/ahmad.__ali.__507/"
     }

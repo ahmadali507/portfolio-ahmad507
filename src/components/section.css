@@ -1,5 +1,5 @@
 #grow {
-    background: linear-gradient(135deg, #444749, #080608); /* Gradient from blue to purple */
+    background: linear-gradient(135deg, #414446, #0f060f); /* Gradient from blue to purple */
     text-align: center;
     color: #fff; 
     height: 120vh; 
@@ -50,7 +50,7 @@
 .box ul{
     list-style: none;
     text-align: center;
-    text-shadow: 10px 10px 10px #2e5370;
+    text-shadow: 10px 10px 10px #599ccf;
     
 }
 .motto{
@@ -65,7 +65,7 @@
 .box:hover{
   box-shadow: 20px 60px 100px rgb(52, 55, 58);
   background: linear-gradient(135deg, #14273a, #461d46);
-  color :rgb(168, 135, 135);
+  color :rgb(199, 71, 71);
 }
 @media (max-width : 900px) {
     .base{
