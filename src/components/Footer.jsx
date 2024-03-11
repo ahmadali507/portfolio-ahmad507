@@ -15,13 +15,19 @@ function Footer() {
     const googleRef = useRef(null); 
                                                                                                                                                                 
     const handleclick= () =>{
-        window.location.href = "https://www.instagram.com/ahmad.__ali.__507/"
+      window.location.target = "_blank"
+      window.location.href = "https://www.instagram.com/ahmad.__ali.__507/"
     }
  // writing some pure js to go to the websites . 
  const handlefacebookclick= () =>{
+  
+     window.location.target = "_blank"
+    
     window.location.href = "http://www.facebook.com"
 }
 const handlegoogleclick= () =>{
+  window.location.target = "_blank"
+
     window.location.href = "http://www.google.com"
 }                                                               
     

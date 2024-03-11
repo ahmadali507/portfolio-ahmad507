@@ -64,7 +64,7 @@
 }
 .box:hover{
   box-shadow: 20px 60px 100px rgb(52, 55, 58);
-  background: linear-gradient(135deg, #14273a, #461d46);
+  background: linear-gradient(135deg, #14273a, #464242);
   color :rgb(199, 71, 71);
 }
 @media (max-width : 900px) {
