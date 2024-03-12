@@ -5,7 +5,7 @@ import "./skills.css";
 export default function Skills() {
   return (
     <>
-      <section id="skills" className="section-p1" >
+      <section id="skull" className="section-p1" >
     <h3>WHAT ARE OUR TECHNICAL SKILLS ?</h3>
         <div className="section">
           <div className="myimg">

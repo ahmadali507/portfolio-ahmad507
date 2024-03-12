@@ -5,7 +5,7 @@ import {back} from '../assets';
 
 const BackgroundComponent = () => {
   return (
-    <div className="background-component">  
+    <div className="background-component" id = "home">  
     <img src={back} alt="" /> 
     </div>
   );

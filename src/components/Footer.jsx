@@ -32,7 +32,7 @@ const handlegoogleclick= () =>{
 }                                                               
     
   return (
-    <footer  >
+    <footer id = "contact" >
       <div className="footer"> 
         <div className="details">
           <h4 className="contact">CONTACT :</h4>

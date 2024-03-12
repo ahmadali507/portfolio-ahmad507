@@ -16,11 +16,11 @@ export default function App() {
     <>
       <Navbar />
       <Menu />
-      <BackgroundComponent id="home" />
-      <IntroductorySection name={name} id="details" />
-      <Section id="projects" />
-      <Skills id="kill" />
-      <Footer id="contact" />
+      <BackgroundComponent  />
+      <IntroductorySection name={name}  />
+      <Section  />
+      <Skills />
+      <Footer  />
     </>
   );
 }
