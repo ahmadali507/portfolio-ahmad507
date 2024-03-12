@@ -6,7 +6,7 @@ export default function Section() {
 
  
   return (
-    <div>
+    <div >
       
       <section id="grow" className="grow-with-us">
 

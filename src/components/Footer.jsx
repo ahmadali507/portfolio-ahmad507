@@ -32,8 +32,8 @@ const handlegoogleclick= () =>{
 }                                                               
     
   return (
-    <footer>
-      <div className="footer">
+    <footer  >
+      <div className="footer"> 
         <div className="details">
           <h4 className="contact">CONTACT :</h4>
           <BsTelephone /> : <span> +92-302-4744600</span>
