@@ -1,13 +1,12 @@
-.introduction-section {
+.introduction-section, #details {
   background: linear-gradient(135deg, #444749, #080608); /* Gradient from blue to purple */
   padding: 50px 0;
   text-align: center;
   color: #fff; /* White text color to contrast with the gradient background */
   position: sticky;
   top : 9.90vh; 
-  z-index: -9;
+  z-index:-19 ;
 }
-
 .content {
   max-width: 800px;
   margin: 0 auto;

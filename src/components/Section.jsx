@@ -6,9 +6,9 @@ export default function Section() {
 
  
   return (
-    <div >
+    <div  >
       
-      <section id="grow" className="grow-with-us">
+      <section  id="grow" className="grow-with-us">
 
         <div className='motto'>
             <h3>WHAT WE DO??</h3>

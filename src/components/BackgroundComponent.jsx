@@ -1,14 +1,15 @@
-
-import React from 'react';
-import './CoveredComponent.css'; // Import CSS for styling
-import {back} from '../assets';
+import React from "react";
+import "./CoveredComponent.css"; // Import CSS for styling
+import { back } from "../assets";
 
 const BackgroundComponent = () => {
   return (
-    <div className="background-component" id = "home">  
-    <img src={back} alt="" /> 
+    <div id="home">
+      <div className="background-component">
+        <img src={back} alt="" />
+      </div>
     </div>
   );
-}
+};
 
 export default BackgroundComponent;

@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <>
       <section id="skull" className="section-p1" >
-    <h3>WHAT ARE OUR TECHNICAL SKILLS ?</h3>
+    <h3 style={{textAlign : 'center'}}>WHAT ARE OUR TECHNICAL SKILLS ?</h3>
         <div className="section">
           <div className="myimg">
             <img src={b1} alt="" />

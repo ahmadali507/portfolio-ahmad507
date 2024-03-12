@@ -32,7 +32,7 @@ else if(width <= 900){
 
 }
   return (
-    <nav className="navbar">
+    <nav className="navbar" id = "top">
       <div className="navbar-container">
         <h1 className="navbar-logo">Your Logo</h1>
         <div className="items">
