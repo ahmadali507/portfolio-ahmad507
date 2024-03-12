@@ -1,8 +1,10 @@
 .background-component {
     height: 70vh;
     width : 100%; 
+    opacity : 0.4; 
+    
     /* background-image: url('src/assets/photos/back.jpeg'); Replace 'your-background-image.jpg' with your actual image file */
-  
+    
     position: sticky;
     top : 10vh; 
     z-index: -100;
