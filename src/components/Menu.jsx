@@ -1,13 +1,14 @@
 import React from 'react';
 import './menu.css'; // Import CSS for styling
+import { useCallback, memo } from 'react';
 
 const Menu = () => {
-  const handleclick = (id) => {
+  const handleclick = useCallback((id) => {
     const targetElement = document.getElementById(id);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'scroll', block: 'start' });
     }
-  };
+  });
 
   return (
     <div className="menu-bar">
@@ -22,4 +23,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default memo(Menu);
