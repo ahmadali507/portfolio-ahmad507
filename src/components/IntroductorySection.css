@@ -23,7 +23,9 @@
 
 .name strong{
   color  : yellowgreen; 
+  transition : all 1s ease-in-out;
 }
+  
 
 .intro-paragraph {
   font-size: 18px;

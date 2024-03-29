@@ -9,7 +9,7 @@ const IntroductorySection = (props) => {
           <h2 className="name">
             Hello! I AM ...
             <br />
-            <strong>{props.name}</strong>{" "}
+            <strong className="rotate" style={{}}>{props.name}</strong>{" "}
           </h2>
           <p className="intro-paragraph">
             I am Ahmad Ali Shahid, a dedicated student of Software Engineering

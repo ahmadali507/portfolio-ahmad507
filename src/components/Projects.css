@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.projects{
+    padding : 120px; 
+    display : flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container-intro{
+    display : flex; 
+    width : 50vw; 
+    height : 50vh; 
+    color : red; 
+    border : 2px solid black;
+}
