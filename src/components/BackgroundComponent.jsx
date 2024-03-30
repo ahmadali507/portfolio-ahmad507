@@ -6,7 +6,7 @@ const BackgroundComponent = () => {
   return (
     <div id="home">
       <div className="background-component">
-        <img src={back} alt="" />
+        <img src={back} alt="" />hello
       </div>
     </div>
   );
