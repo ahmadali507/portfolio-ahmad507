@@ -20,7 +20,7 @@ export default function App() {
     <>
       <Navbar />
       <Menu />
-      <BackgroundComponent  />
+      {/* <BackgroundComponent  /> */}
       <Suspense fallback={<div style={{textAlign : 'center'}}>LOADING ________</div>}>
         <IntroductorySection name={name}  />
       </Suspense>

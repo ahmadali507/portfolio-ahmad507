@@ -1,16 +1,23 @@
 import React from "react";
 import "./IntroductorySection.css"; // Import CSS for styling
-
+import { motion } from "framer-motion";
 const IntroductorySection = (props) => {
   return (
     <div id="details">
       <section className="introduction-section">
         <div className="content">
+        <motion.div
+        initial={{ x: -200 , opacity : [0.2]}} // Initial position (start off-screen to the left)
+        animate={{ x: 0, opacity: [1.0] }} // Final position (move to the center)
+        transition={{ duration: 2, type: 'tween' }} // Transition duration and type
+        style={{ fontSize: '2rem', fontWeight: 'bold' }}
+      >
           <h2 className="name">
             Hello! I AM ...
             <br />
             <strong className="rotate" style={{}}>{props.name}</strong>{" "}
           </h2>
+      </motion.div>
           <p className="intro-paragraph">
             I am Ahmad Ali Shahid, a dedicated student of Software Engineering
             at the prestigious National University of Sciences and Technology
